@@ -1,0 +1,45 @@
+body {
+  margin-top: 70px;
+}
+
+.navbar-nav .nav-link {
+  font-family: 'Maven Pro', sans-serif;
+  color: #756f5f!important;
+}
+
+nav {
+  border-bottom: 1px solid rgb(0, 0, 0, .125);
+  z-index: 1000;
+  background-color: #FFFF;
+}
+
+nav ul li a,
+nav ul li a:after,
+nav ul li a:before {
+  transition: all .5s;
+}
+nav ul li a:hover {
+  color: #555;
+}
+
+
+nav.stroke ul li a,
+nav.fill ul li a {
+  position: relative;
+}
+nav.stroke ul li a:after,
+nav.fill ul li a:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: #aaa;
+  height: 1px;
+}
+nav.stroke ul li a:hover:after {
+  width: 90%;
+}
