@@ -1,3 +1,7 @@
+.title-section {
+  padding-bottom: 50px;
+}
+
 .diapo:first-of-type {
   display: flex;
 }
@@ -6,30 +10,41 @@
   display: none;
 }
 
-.cellphone {
+.main-diapo {
   position: relative;
 }
 
 .next {
   position: absolute;
-  top: 90%;
-  right: 28%;
+  top: 91%;
+  left: 27%;
   color: white;
 }
 
 .prev {
   position: absolute;
-  top: 90%;
-  right: 65%;
+  top: 91%;
+  left: 11%;
   color: white;
 }
 
 .stop {
   position: absolute;
-  top: 90%;
+  top: 92%;
+  left: 20.5%;
+  color: white;
+  font-size: 1.3em;
 }
 
 .play {
   position: absolute;
-  top: 90%;
+  top: 92%;
+  left: 17.5%;
+  color: white;
+  font-size: 1.3em;
+}
+
+.etape {
+  width: 100px;
+  height: 100px;
 }
